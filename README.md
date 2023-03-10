@@ -13,8 +13,7 @@ This is a simple website project that shows good books to read mostly web novels
 ## Usage
 - When you run the server go to your browser go to:
 
-> localhost/website 
-
+> localhost/NVOnline
 
 -The website should be running. Then you can sign up as you follow the buttons such as login/sign up.
 

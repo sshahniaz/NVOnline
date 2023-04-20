@@ -1,0 +1,28 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+/* form {border: 3px solid #f1f1f1;} */
+
+
+
+
+/* Style */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.error {
+  color:red;
+  border: 2px solid red;
+  margin-top: 5px;
+  padding-left: 5px;
+}

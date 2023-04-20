@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins';
+
+  background-color: #13013a;
+
+}
+
+
+.navbar {
+  background: #13013a;
+  color: #ebdccd;
+}
+
+.nav-link {
+  color: #ebdccd;
+}
+
+.nav-item .nav-link:hover {
+  color: #ebdccd;
+  background: #13013a;
+}
+
+
+.navbar-toggler-icon {
+  color: #ebdccd;
+}
+
+.img500 {
+  width: 500px;
+  height: 500px;
+  border: 5px solid #ebdccd;
+  -webkit-box-shadow: 11px 12px 25px 12px rgba(133, 80, 246, 0.42);
+  -moz-box-shadow: 11px 12px 25px 12px rgba(133, 80, 246, 0.42);
+  box-shadow: 11px 12px 25px 12px rgba(133, 80, 246, 0.42);
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.table {
+  color: #ebdccd;
+}
+
+.table a {
+  color: #ebdccd;
+  text-decoration: none;
+}
+
+.bookNav {
+  width: 100%;
+  border-bottom: 2px solid #ebdccd;
+  padding: 1.5em auto;
+  margin: 2em auto;
+}
+
+.bookNav .wrapper{
+  width: 90%;
+}
+
+.chapTitle{
+  font-size: x-large;
+  letter-spacing: 0.10em;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
